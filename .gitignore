@@ -12,6 +12,6 @@
 hs_err_pid*
 
 # IntelliJ Idea directory
-.ideal/
+.idea/
 *.iml
 =======

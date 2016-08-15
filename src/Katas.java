@@ -1,9 +1,6 @@
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.StringTokenizer;
 
 /**
  * Created by chris on 8/13/16.
@@ -17,7 +14,7 @@ public class Katas {
 
     // Given an ArrayList of Integers, return true if the ArrayList is length 1
     // or more, and the first element and the last element are equal.
-    public static boolean sameFirstLast6(ArrayList<Integer> ints) {
+    public static boolean firstLast6(ArrayList<Integer> ints) {
         return ints.get(0).equals(6) || ints.get(ints.size() - 1).equals(6);
     }
 
@@ -32,8 +29,9 @@ public class Katas {
 
     // Given an ArrayList of Integers length 3, return an ArrayList with the elements
     // "rotated left" so [1, 2, 3] yields [2, 3, 1].
-    public static void rotateLeft(ArrayList<Integer> ints) {
+    public static ArrayList<Integer> rotateLeft(ArrayList<Integer> ints) {
         Collections.rotate(ints, ints.size() - 1);
+        return ints;
     }
 
     // Given an ArrayList of Integers length 3, return a new ArrayList with the

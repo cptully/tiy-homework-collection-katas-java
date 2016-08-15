@@ -13,26 +13,26 @@ public class Main {
         ints.add(1);
         ints.add(2);
         ints.add(6);
-        boolean result = Katas.sameFirstLast6(ints);
-        System.out.printf("Katas.sameFirstLast6(%s) -> %s\n", ints, result);
+        boolean result = Katas.firstLast6(ints);
+        System.out.printf("Katas.firstLast6(%s) -> %s\n", ints, result);
         ints.add(0, 6);
         ints.remove(ints.size() - 1);
         ints.add(3);
-        result = Katas.sameFirstLast6(ints);
-        System.out.printf("Katas.sameFirstLast6(%s) -> %s\n", ints, result);
+        result = Katas.firstLast6(ints);
+        System.out.printf("Katas.firstLast6(%s) -> %s\n", ints, result);
         ints.add(0, 13);
-        result = Katas.sameFirstLast6(ints);
-        System.out.printf("Katas.sameFirstLast6(%s) -> %s\n", ints, result);
+        result = Katas.firstLast6(ints);
+        System.out.printf("Katas.firstLast6(%s) -> %s\n", ints, result);
         ints.clear();
         ints.add(6);
-        result = Katas.sameFirstLast6(ints);
-        System.out.printf("Katas.sameFirstLast6(%s) -> %s\n", ints, result);
+        result = Katas.firstLast6(ints);
+        System.out.printf("Katas.firstLast6(%s) -> %s\n", ints, result);
         ints.add(0, 1);
-        result = Katas.sameFirstLast6(ints);
-        System.out.printf("Katas.sameFirstLast6(%s) -> %s\n", ints, result);
+        result = Katas.firstLast6(ints);
+        System.out.printf("Katas.firstLast6(%s) -> %s\n", ints, result);
         ints.add(7);
-        result = Katas.sameFirstLast6(ints);
-        System.out.printf("Katas.sameFirstLast6(%s) -> %s\n", ints, result);
+        result = Katas.firstLast6(ints);
+        System.out.printf("Katas.firstLast6(%s) -> %s\n", ints, result);
 
 
         System.out.printf("\n\n");
